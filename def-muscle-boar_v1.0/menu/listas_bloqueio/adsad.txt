@@ -1,0 +1,1 @@
+usu=$(cat /etc/squid3/squid_passwd|cut -d":" -f1|xargs -I@ echo "@ \n")
